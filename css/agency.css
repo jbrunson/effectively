@@ -74,7 +74,7 @@ h6 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #F5A11D;
+    background-color: #0CC2BB;
 }
 
 .btn-primary:hover,
@@ -118,6 +118,8 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-xl {
+    display: inline-block;
+    margin: 0 auto 0.5em;
     padding: 20px 40px;
     border-color: #F5A11D;
     border-radius: 3px;
@@ -175,7 +177,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "IM Fell Double Pica SC","Helvetica Neue",Helvetica,Arial,cursive;
     color: #F5A11D;
 }
 
@@ -265,7 +267,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/startup-life.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../img/startup-life.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
